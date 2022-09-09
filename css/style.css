@@ -1,0 +1,131 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-family: serif;
+	font-size: 14px;
+	line-height: 24px;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: sans-serif;
+}
+a, a:hover{
+	text-decoration: none;
+} 
+
+.signup-box{
+	width: 700px;
+	margin: 50px auto;
+}
+
+.main-form{
+	width: 100%;
+	padding: 20px;
+	background: #eee; 
+}
+
+.main-form .avater-img{
+	width: 100%;
+	text-align: center;
+}
+
+.main-form .avater-img .avater{
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	border: 1px solid #000;
+}
+
+.main-form h1{
+	font-size: 42px;
+	line-height: 52px;
+	color: #000;
+	text-transform: uppercase;
+	font-weight: 400;
+	text-align: center;
+	margin: 15px 0px;
+}
+
+
+.main-form .form-group{
+	width: 100%;
+	margin: 15px 0px;
+}
+
+.main-form .form-group label{
+	display: block;
+	font-size: 14px;
+	text-transform: uppercase;
+	line-height: 24px;
+	font-weight: 400;
+	margin: 0px 0px 5px;
+}
+
+
+
+.main-form .form-control{
+	width: 96%;
+    padding: 10px;
+    font-size: 14px;
+    color: #000;
+    border: 1px solid#000
+}
+
+
+
+.main-form .btn-primary{
+    padding: 15px 45px;
+    border: 1px solid #495a70;
+    background: #495a70;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin: 15px 0px 0px;
+    transition: 1s;
+}
+
+.main-form .btn-primary:hover, .main-form .btn-primary:focus{
+	border: 1px solid #9b7351;
+    background: #9b7351;
+    color: #000;
+    cursor: pointer;
+}
+
+.social-icons{
+	width: 100%;
+	padding: 40px 0px;
+
+}
+
+.social-icons .icons{
+	width: 100%;
+	display: block;
+	text-align: center;
+}
+
+.social-icons .icons li{
+	list-style: none;
+	display: inline-block;
+}
+
+.social-icons .icons li a{
+	display: block;
+	width: 100px;
+	height: 100px;
+	line-height: 100px;
+	font-size: 23px;
+	margin: 0px 15px;
+	background: #9b7351;
+	color: #000;
+	border-radius: 100%;
+	border: 1px solid #9b7351;
+	transition: 1s;
+}
+
+.social-icons .icons li a:hover, .social-icons .icons li a:focus{
+	background: #495a70;
+	color: #fff
+}
